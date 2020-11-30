@@ -75,7 +75,7 @@ img {
 .card_doctype {
 	align-items: center;
     margin: 2px 2px 0px 12px;
-    text-shadow: -1px 1px 5px #808080;
+    /*text-shadow: -1px 1px 5px #808080;*/
 }
 
 .card {
