@@ -60,14 +60,17 @@ img {
 }
 
 .img_header_logo {
-	width: 112px;	
+	width: 113px;	
+	height: 79px;
 }
 
 .img_header_menu {
 	width: 24px;
-	position: fixed;
+	/*position: fixed;*/
 	right: 10px;
 	top: 70px;
+	align-self: flex-end;
+	margin-bottom: 4px;
 	/*display: flex;
 	justify-content: flex-end;*/
 	
@@ -78,7 +81,7 @@ img {
 	max-height: 100px;
 	width: 100%;
 	/*background: #fff;*/
-	padding: 15px 0;
+	/*padding: 15px 0;*/
 	z-index: 100;
 	-webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
 			box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
@@ -86,13 +89,18 @@ img {
 	margin-bottom: 10px;
 	box-shadow: -2px 2px 5px #808080;
 	position: fixed;
-	 
-}
-
-.header_div{
+	
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+	align-items : center;
+	/*display: flex;
+	flex-direction: row; */
 }
+
+/*.header_div{
+	
+}*/
 
 .footer {
 	position: absolute;

@@ -11,11 +11,11 @@
 	}
 }
 */
-//document.querySelector('article').onclick = function() {
-  //alert("Нажат блок article класс card");
-//}
+document.querySelector('card').onclick = function() {
+  alert("Нажат блок article класс card");
+}
 
 
 function active(element) {
-	alert("Нажат блок article класс card " + element);
+	//alert("Нажат блок article класс card " + element);
 }
