@@ -1,21 +1,10 @@
 
-/*button.onclick = function() {
-	// body...
-	
-	if (button.style.backgroundColor == 'black') {
-		button.style.backgroundColor = 'white';
-		button.style.color = 'black';
-	} else {
-		button.style.backgroundColor = 'black';
-		button.style.color = 'white';
+var elCard = document.querySelectorAll('.card');
+
+[].forEach.call (elCard, function(elementCard) {
+	console.log(elementCard.id);
+
+	elementCard.onclick = function(e) {
+		console.log(this);
 	}
-}
-*/
-document.querySelector('card').onclick = function() {
-  alert("Нажат блок article класс card");
-}
-
-
-function active(element) {
-	//alert("Нажат блок article класс card " + element);
-}
+});
