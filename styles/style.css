@@ -8,7 +8,7 @@ body, h1, h2 {
 }
 
 body {
-	font-family: 'Helvetica', 'Arial', sans-serif
+	/*font-family: 'Helvetica', 'Arial', sans-serif*/
 }
 header {
 	height: 100vh;
@@ -20,7 +20,7 @@ button {
 }
 
 h2 {
-	font-size: 20px;
+	/*font-size: 20px;
 	font-family: 'William', sans-serif;
 	/*margin-bottom: 2px;
 	margin-top: 2px;*/
@@ -50,13 +50,13 @@ div {
 /*background-color: #009CB5;*/
 /*background-color: rgba(0, 156, 181, .3);*/
 /*width: 500;
-height: 500;*/
-padding-top:  5px;
+height: 500;
+padding-top:  5px;*/
 
 }
 
 img {
-	width: 52px;
+	width: 18px;
 }
 
 .img_header_logo {
@@ -70,7 +70,8 @@ img {
 	right: 10px;
 	top: 70px;
 	align-self: flex-end;
-	margin-bottom: 4px;
+	margin-bottom: 8px;
+	margin-right: 8px;
 	/*display: flex;
 	justify-content: flex-end;*/
 	
@@ -85,7 +86,7 @@ img {
 	z-index: 100;
 	-webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
 			box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
-	background-color: rgb(0, 156, 181);
+	/*background-color: rgb(0, 156, 181);*/
 	margin-bottom: 10px;
 	box-shadow: -2px 2px 5px #808080;
 	position: fixed;
@@ -104,7 +105,7 @@ img {
 
 .footer {
 	position: absolute;
-	background-color: rgb(0, 156, 181);
+	/*background-color: rgb(0, 156, 181);*/
 	position:fixed;
 	left:0px;
 	bottom:0px;
@@ -148,28 +149,187 @@ img {
 .card {
 	align-items: center;
 	max-width: 720px;
-	/*width: 350px;*/
-	background-color: rgba(0, 156, 181, .3);
+	/*width: 350px;
+	background-color: rgba(0, 156, 181, .3);*/
 	border-radius: 10px;
 	overflow: hidden;
     position: relative;
     margin-top: 12px;
     margin-left: 7px;
     margin-right: 7px;
-    box-shadow: -2px 2px 5px #808080;
+    box-shadow: -2px 2px 5px #C0C0C0;
 }
 
+.card_detal {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 4px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+
+.card_detal_str
+{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px 2px 2px 2px;
+}
 .card_doc_info {
 	display: flex;
 	margin-right: 2px;
 }
 .p_doc_text {
-	font-size: 18px;
+	/*font-size: 18px;*/
 }
 .p_doc_context {
-	font-size: 12px;
+	/*font-size: 12px;*/
 }
 article {
 	display: block;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+.title-h2-test {
+	font-family: 'Open Sans', sans-serif; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;600&display=swap');
+.font-h2 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 19px;	
+}
+
+.font-text {
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	color: #808080;
+}
+
+.font-context {
+	font-family: 'Roboto Slab', serif;
+	font-size: 10px;
+	color: #808080;
+}
+
+.bg-color {
+	background-color: rgb(0, 156, 181);
+}
+.bg-footer-color {
+	background-color: rgb(0, 156, 181);
+}
+
+.bg-light {
+	/*background: #FFF;*/
+	background-color: #FFF;
+}
+
+.bg-card-color {
+	background-color: rgba(0, 156, 181, .3);
+}
+
+
+
+.btn-style {
+	margin-bottom: 4px;
+	margin-top: 4px;
+	border-radius: 5px;
+	border: 1px solid #808080;
+	background: rgba(0, 156, 181, .3);
+}
+
+.h2-text-color {
+	color: #000;	
+}
+
+/*
+Светлая тема
+*/
+.bg-footer-light {
+	background-color: #FFF;
+}
+
+.bg-card-light {
+	background-color: #FFFFFF;
+	/*background: #FFF;*/
+}
+.h2-text-light {
+	color: rgb(3, 137, 158);	
+}
+.p-text-color {
+	color: rgb(3, 137, 158);	
+}
+
+/*
+Конец светлый тема
+*/
+
+/*
+Темная тема
+*/
+
+.body-dark {
+	background: #373737;
+}
+.bg-card-dark {
+	background-color: #373737;
+}
+
+.bg-dark {
+	background-color: #373737;
+}
+
+.bg-footer-dark {
+	background-color: #373737;
+}
+
+.h2-text-dark {
+	color: #f4f4f4;	
+}
+.font-h2-dark {
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	/*color: #FFF;*/
+	color: rgb(3, 137, 158);
+}
+.p-text-dark {
+	color: #C0C0C0;
+}
+/*
+Конец темная тема
+*/
+
+/*
+Временный блок
+*/
+a.button21 {
+  /*color: #000;*/
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em;
+  outline: none;
+  border-radius: 1px;
+  background-image:
+   radial-gradient(1px 45% at 0% 50%, rgba(0,0,0,.6), transparent),
+   radial-gradient(1px 45% at 100% 50%, rgba(0,0,0,.6), transparent); 
+}
+
+a.button21:hover {
+  background-image:
+   radial-gradient(1px 45% at 0% 50%, rgba(0,0,0,.6), transparent),
+   radial-gradient(1px 45% at 100% 50%, rgba(0,0,0,.6), transparent); 
+}
+
+a.button21:active {
+   background-image:
+   radial-gradient(45% 45% at 50% 100%, rgba(255,255,255,.9), rgba(255,255,255,0)),
+   linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.3));
+  box-shadow:
+   inset rgba(162,95,42,.4) 0 0 0 1px,
+   inset rgba(255,255,255,.9) 0 0 1px 3px;
+}
+/*
+Конец верменный блок
+*/
