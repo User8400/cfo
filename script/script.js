@@ -21,16 +21,17 @@ var elCard = document.querySelectorAll('.card');
 window.onload = init;
 
 function init(){
-    /*var button = document.getElementById("ColTButton")
-    button.onclick = handleButtonColorStyle;
     var button = document.getElementById("lightTButton")
     button.onclick = handleButtonLightstyle;
+    /*var button = document.getElementById("ColTButton")
+    button.onclick = handleButtonColorStyle;
+    */
     var button = document.getElementById("darkTButton")
-    button.onclick = handleButtondarkstyle;*/
+    button.onclick = handleButtondarkstyle;
 }
 
 function handleButtonColorStyle() {
-    //alert("Цветной стиль");
+    alert("Цветной стиль");
     /*
     var elements = document.getElementsByClassName("bg-card-color"),i,len;
     for (i = 0, len = elements.length; i < len; i += 1) {
@@ -58,9 +59,16 @@ function handleButtonColorStyle() {
     }*/
 }
 function handleButtonLightstyle() {
-    //alert("Светлый стиль");
+
+	document.querySelectorAll('.bg-card-light').forEach((elem) => {		
+		elem.classList.add("bg-card-dark");
+		elem.classList.remove("bg-card-light");
+ 	});
 }
 function handleButtondarkstyle() {
-    //alert("Темный стиль");
+	document.querySelectorAll('.bg-card-dark').forEach((elem) => {		
+		elem.classList.add("bg-card-light");
+		elem.classList.remove("bg-card-dark");
+ 	});
 }
 
